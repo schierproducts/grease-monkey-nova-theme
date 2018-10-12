@@ -16,7 +16,7 @@ class ThemeServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::style('grease-monkey-nova-theme', __DIR__.'/../resources/css/theme.css');
+            Nova::style('grease-monkey-nova-theme', __DIR__.'/../css/theme.css');
         });
     }
 
